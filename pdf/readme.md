@@ -1,2 +1,8 @@
 # Put your pdf files here
-- if needed, create new folder by creating file with "/" at end of file name, followed by readme.md or readme.txt
+
+- These files, are from today to show how mini-boards of same game converted to pdf fine but not main-boards (true in move explorer pages as well).  Secondary point, is by changing printing setup format size and orientation (portrait or landscape), one can explore almost all the responsive design considered screen geometries that lichess UÌ front-end developers have considered.  if questions i can retrace which format and orientations generated those pdf files.  But one can induce with practice, from font size appearance and modules (contained containers) mutual relative dispositions.  
+- Also, the dislocation or distortion (both exist, as there are two interacting factors on top of the fixed DPI chrome-pdf-skia interpreter conversion factor for pixel dimensions defined embedded image (random permutation of previous words might make for proper English, ask Google translate English to English or International English to Native English).
+-- dislocation is a discontinuous jump across responsive design geometry breakpoints that print page format choice implies.
+-- distortion is a continuous evolution one design when varying custom margin within on format in between the dislocation values.
+-- did not try to show that level of detail here.  did not show the small regions of no-distortions that exist within previous zones for any page format choice. full documented set of experiment exists as experimental proof of all above statements. And i know the code lines in lichess code base responsible for this.  just that pull request to solve that is Sisyphus-like for my work stamina capacity and web collaboration formal coding knowledge or experience.
+-- end of blog.
